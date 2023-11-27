@@ -1,0 +1,70 @@
+{
+  "_from": "d3-bubble-radar@0.0.9",
+  "_id": "d3-bubble-radar@0.0.9",
+  "_inBundle": false,
+  "_integrity": "sha512-r05+SM+ZSnR3KFD0Bn7+fkdOAgYAiQ1Jj3lV6IvA79IbZsGID11DTUrKYLpZQly3TaY7rvYrq36LYDYt1NfnPg==",
+  "_location": "/d3-bubble-radar",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "d3-bubble-radar@0.0.9",
+    "name": "d3-bubble-radar",
+    "escapedName": "d3-bubble-radar",
+    "rawSpec": "0.0.9",
+    "saveSpec": null,
+    "fetchSpec": "0.0.9"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/d3-bubble-radar/-/d3-bubble-radar-0.0.9.tgz",
+  "_shasum": "03d7dd069a117a1e1e6db50802e328b300c52025",
+  "_spec": "d3-bubble-radar@0.0.9",
+  "_where": "E:\\clients\\mehmet\\risk-register",
+  "author": {
+    "name": "s4birli"
+  },
+  "bugs": {
+    "url": "https://github.com/s4birli/react-d3-radar/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Add CSS",
+  "devDependencies": {
+    "@types/d3": "^7.1.0",
+    "@types/lodash": "^4.14.177",
+    "@types/react": "^17.0.35",
+    "@types/react-dom": "^17.0.11",
+    "d3": "^7.1.1",
+    "lodash": "^4.17.21",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.4.4"
+  },
+  "files": [
+    "/lib"
+  ],
+  "homepage": "https://github.com/s4birli/react-d3-radar#readme",
+  "keywords": [
+    "radar",
+    "d3",
+    "react"
+  ],
+  "license": "ISC",
+  "main": "./lib/cjs/index.js",
+  "module": "./lib/esm/index.js",
+  "name": "d3-bubble-radar",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s4birli/react-d3-radar.git"
+  },
+  "scripts": {
+    "build": "yarn build:esm && yarn build:cjs",
+    "build:cjs": "tsc --module commonjs --outDir lib/cjs",
+    "build:esm": "tsc"
+  },
+  "types": "./lib/esm/index.d.ts",
+  "version": "0.0.9"
+}

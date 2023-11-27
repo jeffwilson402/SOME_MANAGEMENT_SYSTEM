@@ -1,0 +1,102 @@
+.bubble-container {
+  background-color: #292929;
+  width: 900px;
+  height: 700px;
+  /* padding: 10px 20px; */
+  position: relative;
+}
+
+.title {
+  color: white;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+
+.svg-container {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+
+.people-and-process {
+  position: absolute;
+  top: 125px;
+  left: 135px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.data-and-access {
+  position: absolute;
+  bottom: 100px;
+  left: 135px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.asset-and-asset {
+  position: absolute;
+  top: 125px;
+  right: 170px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.technology {
+  position: absolute;
+  bottom: 140px;
+  right: 105px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.impact-container {
+  position: absolute;
+  top: 380px;
+}
+
+.impact-container span{ 
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.impact-item {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-weight: 500;
+  font-size: 24px;
+  color: white;
+}
+
+.impact-item span {
+  padding: 8px;
+  border-radius: 16px;
+  height: 0px;
+}
+
+.impact-1 {
+  background-color: #6bc3ce;
+}
+
+.impact-2 {
+  background-color: #01a778;
+}
+
+.impact-3 {
+  background-color: #7ba448;
+}
+
+.impact-4 {
+  background-color: #f6a118;
+}
+
+.impact-5 {
+  background-color: #e31c4b;
+}

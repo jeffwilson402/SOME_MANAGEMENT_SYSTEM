@@ -1,0 +1,10 @@
+#radar {
+    display: flex;
+    justify-content: center;
+}
+
+canvas {
+    background: radial-gradient(#222, #111);
+    border-radius: 100%;
+    display: block;
+}
